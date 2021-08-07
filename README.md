@@ -1,4 +1,4 @@
-##Otter Train Sim
+## Otter Train Sim
 
 Just a thing I decided to make because I like Factorio's train mechanics, but couldn't find anything similar that I liked.
 
