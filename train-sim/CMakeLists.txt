@@ -5,7 +5,7 @@ cmake_minimum_required (VERSION 3.8)
 set(CMAKE_CXX_STANDARD 20)
 
 # Add source to this project's executable.
-add_executable (train-sim "src/train-sim.cpp" "include/Tile.h" "src/Tile.cpp" "include/Block.h" "src/Block.cpp" "include/Chunk.h" "src/Chunk.cpp" "include/World.h" "src/World.cpp" "include/Game.h" "src/Game.cpp" "include/Options.h" "include/Input.h" "src/Input.cpp" "src/pch.cpp")
+add_executable (train-sim "src/train-sim.cpp" "include/Tile.h" "src/Tile.cpp" "include/Block.h" "src/Block.cpp" "include/Chunk.h" "src/Chunk.cpp" "include/World.h" "src/World.cpp" "include/Game.h" "src/Game.cpp" "include/Options.h" "src/pch.cpp")
 target_include_directories(train-sim PUBLIC "include")
 target_precompile_headers(train-sim PUBLIC "include/pch.h")
 
